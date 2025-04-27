@@ -12,13 +12,13 @@ pip install ttkbootstrap
 
 Menu Bar (Top):
 
-    File: Open File(s), Save, Save Preview As, Exit.
+    -File: Open File(s), Save, Save Preview As, Exit.
 
-    Edit: Copy, Cut, Paste, Select All, Clear All / Reset.
+    -Edit: Copy, Cut, Paste, Select All, Clear All / Reset.
 
-    Language: Switch between English and Arabic.
+    -Language: Switch between English and Arabic.
 
-    Help: Show the About dialog.
+    -Help: Show the About dialog.
 
 Input Section (Upper Area):
 
