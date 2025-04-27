@@ -22,31 +22,31 @@ Menu Bar (Top):
 
 Input Section (Upper Area):
 
-    Search For (one per line): A text box where you enter the text strings you want to find. Each distinct search term should be on its own line.
+    - Search For (one per line): A text box where you enter the text strings you want to find. Each distinct search term should be on its own line.
 
-    Replace With (corresponding line): A text box where you enter the replacement text. The text on line N here will replace the text found from line N in the "Search For" box. The number of lines in both boxes must match.
+    - Replace With (corresponding line): A text box where you enter the replacement text. The text on line N here will replace the text found from line N in the "Search For" box. The number of lines in both boxes must match.
 
 Action Buttons (Middle Area):
 
-    Preview Replacements: Performs the search based on the input boxes and shows the potential result in the "After" pane without modifying any files yet.
+    - Preview Replacements: Performs the search based on the input boxes and shows the potential result in the "After" pane without modifying any files yet.
 
-    Clean Input Fields: Removes leading/trailing whitespace from each line in the "Search For" and "Replace With" boxes (useful for tidying up).
+    - Clean Input Fields: Removes leading/trailing whitespace from each line in the "Search For" and "Replace With" boxes (useful for tidying up).
 
 Preview Section (Lower Area - Resizable):
 
-    Before (Original Content): Displays the original content of the loaded file(s) or pasted text. If multiple files are loaded, they are shown sequentially with separators like --- File: filename.txt ---. This pane is read-only after loading files but editable if you paste text directly.
+    - Before (Original Content): Displays the original content of the loaded file(s) or pasted text. If multiple files are loaded, they are shown sequentially with separators like --- File: filename.txt ---. This pane is read-only after loading files but editable if you paste text directly.
 
-    After (Preview): Displays the content after the replacements have been previewed using the "Preview Replacements" button. This pane is always read-only.
+    - After (Preview): Displays the content after the replacements have been previewed using the "Preview Replacements" button. This pane is always read-only.
 
-    Search Bars: Below both the "Before" and "After" panes, there's a small search bar (Search: [Entry] Find Next) to help you find specific text within that pane (this doesn't perform the main replacement).
+    - Search Bars: Below both the "Before" and "After" panes, there's a small search bar (Search: [Entry] Find Next) to help you find specific text within that pane (this doesn't perform the main replacement).
 
 4. Basic Workflow (Single or Multiple Files):
 
     Load Content:
 
-        Option A (Load Files): Go to File -> Open File(s)... (or press Ctrl+O). Select one or more text files. Their content will appear concatenated in the "Before" pane (with separators if multiple). The "Before" pane becomes read-only.
+        - Option A (Load Files): Go to File -> Open File(s)... (or press Ctrl+O). Select one or more text files. Their content will appear concatenated in the "Before" pane (with separators if multiple). The "Before" pane becomes read-only.
 
-        Option B (Paste Text): If you don't load files, you can copy text from elsewhere and paste it directly into the "Before" pane (using Ctrl+V or Edit -> Paste or Right-Click -> Paste). In this case, the "Before" pane remains editable.
+        - Option B (Paste Text): If you don't load files, you can copy text from elsewhere and paste it directly into the "Before" pane (using Ctrl+V or Edit -> Paste or Right-Click -> Paste). In this case, the "Before" pane remains editable.
 
     Enter Search Terms: In the "Search For" box, type or paste the text you want to find. Put each distinct search term on a new line.
 
@@ -60,9 +60,9 @@ Preview Section (Lower Area - Resizable):
 
     Save Changes (Choose Carefully!):
 
-        To Overwrite Original Files (Save): If you loaded file(s) and are happy with the preview, go to File -> Save (or press Ctrl+S). This will apply the search/replace rules again to the original content of each loaded file individually and overwrite those original files. This is permanent! Use with caution. The * in the title bar will disappear. (This option does nothing if you only pasted text into "Before").
+        - To Overwrite Original Files (Save): If you loaded file(s) and are happy with the preview, go to File -> Save (or press Ctrl+S). This will apply the search/replace rules again to the original content of each loaded file individually and overwrite those original files. This is permanent! Use with caution. The * in the title bar will disappear. (This option does nothing if you only pasted text into "Before").
 
-        To Save Preview to a New File (Save Preview As): If you want to save the exact content shown in the "After" preview pane to a new file (leaving originals untouched, or saving pasted/modified content), go to File -> Save Preview As... (or press Ctrl+Shift+S). You'll be prompted for a new filename. This is safer and also works if you pasted text initially. After saving, the application resets, treating the newly saved file as the content in the "Before" pane.
+        - To Save Preview to a New File (Save Preview As): If you want to save the exact content shown in the "After" preview pane to a new file (leaving originals untouched, or saving pasted/modified content), go to File -> Save Preview As... (or press Ctrl+Shift+S). You'll be prompted for a new filename. This is safer and also works if you pasted text initially. After saving, the application resets, treating the newly saved file as the content in the "Before" pane.
 
 5. Other Actions:
 
