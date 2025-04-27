@@ -4,11 +4,13 @@
 
 [Download Replace Master Files Text](https://github.com/MrGamesKingPro/Replace-Master-Files-Text/releases/tag/Replace.Master.Files.Text)
 
-Or use a version Python
+-- Or use a version Python
 
 Install Libraries
 
 pip install ttkbootstrap
+
+Program interface
 
 ![Sans titre 2](https://github.com/user-attachments/assets/18feef6c-d6c3-4bdb-9549-8c00aa207595)
 
