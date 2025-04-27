@@ -10,6 +10,9 @@ Install Libraries
 
 pip install ttkbootstrap
 
+![Sans titre 2](https://github.com/user-attachments/assets/18feef6c-d6c3-4bdb-9549-8c00aa207595)
+
+
 Menu Bar (Top):
 
     - File: Open File(s), Save, Save Preview As, Exit.
@@ -40,7 +43,7 @@ Preview Section (Lower Area - Resizable):
 
     - Search Bars: Below both the "Before" and "After" panes, there's a small search bar (Search: [Entry] Find Next) to help you find specific text within that pane (this doesn't perform the main replacement).
 
-4. Basic Workflow (Single or Multiple Files):
+ Basic Workflow (Single or Multiple Files):
 
     Load Content:
 
@@ -64,7 +67,7 @@ Preview Section (Lower Area - Resizable):
 
         - To Save Preview to a New File (Save Preview As): If you want to save the exact content shown in the "After" preview pane to a new file (leaving originals untouched, or saving pasted/modified content), go to File -> Save Preview As... (or press Ctrl+Shift+S). You'll be prompted for a new filename. This is safer and also works if you pasted text initially. After saving, the application resets, treating the newly saved file as the content in the "Before" pane.
 
-5. Other Actions:
+ Other Actions:
 
     Clear All / Reset: Use Edit -> Clear All / Reset to clear all text boxes, remove loaded file information, and reset the application to its initial state. It will warn you if you have unsaved changes.
 
@@ -76,7 +79,7 @@ Preview Section (Lower Area - Resizable):
 
     Unsaved Changes: If the "After" preview differs from the original "Before" content, an asterisk (*) appears in the title bar. The app will prompt you to save or discard these changes if you try to open new files, clear all, or exit.
 
-6. Important Notes:
+ Important Notes:
 
     Save vs. Save Preview As: Understand the difference! Save overwrites originals; Save Preview As creates a new file from the preview.
 
